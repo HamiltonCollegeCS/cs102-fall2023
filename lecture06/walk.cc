@@ -11,6 +11,14 @@
 
 using namespace std;
 
+/**
+ * @brief Determine if a dog should walk.
+ * 
+ * @param wee true if and only if the dog needs to wee
+ * @param bored true if and only if the dog is bored
+ * @param thorn true if and only if the dog has a thorn in its paw
+ * @return true if the dog should walk, false otherwise 
+ */
 bool should_walk(bool wee, bool bored, bool thorn) {
     return (!wee && bored && !thorn) || wee;
 }
