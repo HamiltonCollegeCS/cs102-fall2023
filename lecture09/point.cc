@@ -6,14 +6,12 @@
  * @collaborators CS 102 -- Fall 2023
  * @date September 18, 2023
 */
-
 #include <iostream>
 
 using namespace std;
 
 class Point {
 public:
-
     Point(int x, int y) {
         _x = x;
         _y = y;
@@ -36,6 +34,7 @@ public:
     void set_y(int y) {
         _y = y;
     }
+    
 private:
     int _x; // attributes
     int _y;
