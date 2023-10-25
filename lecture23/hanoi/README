@@ -1,0 +1,5 @@
+You can compile and run the tower of hanoi code as follows:
+
+1. first cd into the hanoi directory.
+2. to compile the code, run make
+3. to execute the code, run ./hanoi
