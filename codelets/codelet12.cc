@@ -28,7 +28,7 @@ int main() {
     cin >> price;
     while (price > 0.0) {
         shavings_card.pay(price);
-        // I added setprecision and fixed so that it's prints 2 digits after .
+        // I added setprecision and fixed so that it prints 2 digits after .
         cout << "You've saved a total of: $" << setprecision(2) << fixed
              << shavings_card.total_shavings() << endl;
         cout << "Enter the purchase price (0.0 to end): ";
