@@ -2,18 +2,6 @@
 
 using namespace std;
 
-/**
- * Singly-linked list
- * 
- * @file SinglyLinkedList.cc
- * @author Darren Strash
- * @collaborators CS 102 -- Fall 2023
- * @date October 23, 2023
-*/
-#include <iostream>
-
-using namespace std;
-
 class Node {
 public:
     Node(int data) {
