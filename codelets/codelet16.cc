@@ -34,7 +34,6 @@ private:
 
 // executes program
 int main() {
-
     string name;
     cout << "Enter your name: ";
     getline(cin, name);
