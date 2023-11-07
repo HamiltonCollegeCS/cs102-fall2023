@@ -43,7 +43,7 @@ public:
         recursive_print(_root);
     }
 
-    void recursive_print(Node * current) {
+    void recursive_print(const Node * current) const {
         if (current != nullptr) {
             recursive_print(current->_left);
             cout << current->_data << " ";
@@ -63,16 +63,16 @@ public:
         }
     }
 
-    bool empty() {
+    bool empty() const {
         return _root == nullptr;
     }
 
-    int max() {
+    int max() const {
+        assert(_root != nullptr);
         return recursive_max(_root);
     }
 
-    int recursive_max(Node * current) {
-        assert(current != nullptr);
+    int recursive_max(const Node * current) const {
         if (current->_right == nullptr) {
             return current->_data;
         }
