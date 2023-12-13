@@ -22,6 +22,6 @@ int main() {
         cout << mine[i] << " "; // invalid read (of 4 bytes)
     }
     cout << endl;
-    delete[] mine; // mismatched new / delete.
+    delete mine; // mismatched new / delete.
     return 0;
 }
