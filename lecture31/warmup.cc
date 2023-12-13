@@ -14,7 +14,7 @@
 using namespace std;
 
 int main() {
-    int * mine = new int[3];
+    int * mine = new int[2];
     mine[0] = 2;
     mine[1] = 4;
     mine[2] = 6; // invalid write (of 4 bytes)
